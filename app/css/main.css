@@ -1,0 +1,97 @@
+/*
+====================
+    Global
+====================
+*/
+body {
+  font-family: Zapf Chancery, cursive;
+  font-size: 2rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.center {
+  text-align: center;
+}
+.no-padding {
+  padding: 0;
+}
+/*
+====================
+    Grid
+====================
+*/
+.app-flex {
+  width : 100%;
+}
+
+.app-flex-5 {
+  width : 50%;
+}
+
+/*
+====================
+    Components
+====================
+*/
+.app-menu {
+  border: .1rem solid rgb(223, 223, 223);
+  border-radius: 50%;
+  padding: 6rem 1rem;
+  text-align: center;
+  width: 30%;
+  font-size: 2rem;
+  margin: 1rem;
+  background: rgb(253, 253, 253);
+}
+
+.app-to-click {
+  padding: 2.5rem;
+  text-decoration: none;
+}
+
+/*
+==================
+    Colors
+==================
+*/
+.color-linkedin {
+  color: #0077b5;
+}
+.color-github {
+  color: #333;
+}
+.color-workshop {
+  color: #5EC4BD;
+}
+.color-twitter {
+  color: #1da1f2;
+}
+
+
+
+/* CSS talk bubble */
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  background-color: #f9f9f4;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+.tri-right.btm-left:after{
+  content: ' ';
+  position: absolute;
+  height: 0;
+  left: 17rem;
+  border: 4rem solid;
+  border-color: transparent transparent transparent #f9f9f4;
+  z-index: 0;
+  transform: rotateZ(90deg);
+}
