@@ -85,19 +85,18 @@ body {
 
 /* CSS talk bubble */
 .talk-bubble {
-  margin: 40px;
+  margin: 3rem;
   display: inline-block;
   position: relative;
-  height: auto;
   background-color: #f9f9f4;
 }
-.round{
-  border-radius: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
+.round-buble {
+  border-radius: 3rem;
+	-webkit-border-radius: 3rem;
+	-moz-border-radius: 3rem;
 
 }
-.tri-right.btm-left:before{
+.arrow-up:before {
   content: ' ';
   position: absolute;
   height: 0;
@@ -105,6 +104,7 @@ body {
   border: 4rem solid;
   border-color: transparent transparent transparent #f9f9f4;
   z-index: 0;
-  top: -111px;
+  top: -8rem;
   transform: rotateZ(-90deg);
+  will-change: transform;
 }

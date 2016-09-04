@@ -32,23 +32,12 @@ class MySelf extends React.Component {
   }
   render() {
     return (
-      <div className="center">
-        <div className="color-title">
-          <h2 className="no-margin-bottom">
-            About
-          </h2>
-          <h1 className="no-margin">Yoseph Santos</h1>
-          <h2 className="no-margin-top">
-            on the internet
-          </h2>
-        </div>
-        <div className="talk-bubble tri-right round btm-left">
-          <nav>
+      <div>
+        <nav className="center talk-bubble arrow-up round-buble">
             <MyMenu
               optionToMenu = {this.optionToMenu}
             />
-          </nav>
-        </div>
+        </nav>
       </div>
     );
   }
