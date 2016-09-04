@@ -21161,6 +21161,25 @@
 	        { className: 'center' },
 	        _react2.default.createElement(
 	          'div',
+	          { className: 'color-title' },
+	          _react2.default.createElement(
+	            'h2',
+	            { className: 'no-margin-bottom' },
+	            'About'
+	          ),
+	          _react2.default.createElement(
+	            'h1',
+	            { className: 'no-margin' },
+	            'Yoseph Santos'
+	          ),
+	          _react2.default.createElement(
+	            'h2',
+	            { className: 'no-margin-top' },
+	            'on the internet'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
 	          { className: 'talk-bubble tri-right round btm-left' },
 	          _react2.default.createElement(
 	            'nav',
@@ -21168,15 +21187,6 @@
 	            _react2.default.createElement(_MyMenu2.default, {
 	              optionToMenu: this.optionToMenu
 	            })
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'Social media about Yoseph Santos'
 	          )
 	        )
 	      );

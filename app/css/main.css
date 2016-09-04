@@ -17,6 +17,15 @@ body {
 .no-padding {
   padding: 0;
 }
+.no-margin {
+  margin:0;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.no-margin-top {
+  margin-top: 0;
+}
 /*
 ====================
     Grid
@@ -68,6 +77,9 @@ body {
 .color-twitter {
   color: #1da1f2;
 }
+.color-title {
+  color: #6f6f6d;
+}
 
 
 
@@ -85,7 +97,7 @@ body {
 	-moz-border-radius: 30px;
 
 }
-.tri-right.btm-left:after{
+.tri-right.btm-left:before{
   content: ' ';
   position: absolute;
   height: 0;
@@ -93,5 +105,6 @@ body {
   border: 4rem solid;
   border-color: transparent transparent transparent #f9f9f4;
   z-index: 0;
-  transform: rotateZ(90deg);
+  top: -111px;
+  transform: rotateZ(-90deg);
 }
