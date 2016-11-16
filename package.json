@@ -23,6 +23,9 @@
     "babel-preset-react": "^6.11.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "stylelint": "^7.5.0"
   }
 }

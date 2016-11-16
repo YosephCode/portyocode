@@ -18,7 +18,7 @@ body {
   padding: 0;
 }
 .no-margin {
-  margin:0;
+  margin: 0;
 }
 .no-margin-bottom {
   margin-bottom: 0;
@@ -26,6 +26,7 @@ body {
 .no-margin-top {
   margin-top: 0;
 }
+
 /*
 ====================
     Grid
@@ -81,8 +82,6 @@ body {
   color: #6f6f6d;
 }
 
-
-
 /* CSS talk bubble */
 .talk-bubble {
   margin: 3rem;
@@ -92,9 +91,8 @@ body {
 }
 .round-buble {
   border-radius: 3rem;
-	-webkit-border-radius: 3rem;
-	-moz-border-radius: 3rem;
-
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
 }
 .arrow-up:before {
   content: ' ';
