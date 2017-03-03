@@ -4,7 +4,8 @@
   "description": "to help me in my job",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run webpack-server & npm run web-server"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,16 @@
   },
   "homepage": "https://github.com/YosephCode/portyocode#readme",
   "devDependencies": {
-    "babel-core": "^6.11.4",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.11.1",
+    "@angular/cli": "^1.0.0-rc.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "webpack": "^1.13.3"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
     "stylelint": "^7.5.0"
